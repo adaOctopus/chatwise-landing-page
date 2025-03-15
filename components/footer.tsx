@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import { Twitter, Linkedin, Mail, Github } from "lucide-react"
+import logo from "@/public/img/logo.png"
 
 // Remove all dynamic content that could cause hydration mismatches
 export function Footer() {
@@ -15,7 +16,7 @@ export function Footer() {
             <div className="flex items-center gap-2">
               <div className="bg-primary/10 p-2 rounded-full">
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitled%20%2810%29-L6Z5P9JdVowph3nHKuzEy61e4WuKVV.png"
+                  src={logo.src}
                   alt="chatWise Logo"
                   className="h-8 w-8 rounded-full"
                 />

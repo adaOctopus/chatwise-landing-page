@@ -1,4 +1,4 @@
-import { ArrowRight, Upload, DollarSign, BellRing } from "lucide-react"
+import { ArrowRight, Upload, DollarSign, BellRing, LogOut } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { TrendingUp, Sparkles, Coins } from "lucide-react"
 import { ImageCarousel } from "@/components/image-carousel"
@@ -7,6 +7,8 @@ import { Footer } from "@/components/footer"
 import chatwise1 from "@/public/img/chatwise1.png"
 import chatwise2 from '@/public/img/chatwise2.png'
 import chatwise3 from '@/public/img/chatwise3.png'
+import chatwise4 from '@/public/img/chatwise4.png'
+import logo from "@/public/img/logo.png"
 
 export default function Home() {
   const carouselImages = [
@@ -22,6 +24,10 @@ export default function Home() {
       src: chatwise3.src,
       alt: "chatWise Chat Market Interface",
     },
+    {
+      src: chatwise4.src,
+      alt: "chatWise Premium Membership",
+    },
   ]
 
   return (
@@ -31,7 +37,7 @@ export default function Home() {
         <div className="flex items-center gap-2">
           <div className="bg-primary/10 p-2 rounded-full">
             <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitled%20%2810%29-L6Z5P9JdVowph3nHKuzEy61e4WuKVV.png"
+              src={logo.src}
               alt="chatWise Logo"
               className="h-6 w-6 rounded-full"
             />
@@ -52,7 +58,7 @@ export default function Home() {
             Chatbot
           </h1>
           <p className="text-lg md:text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
-            Upload your files and instantly create an AI chatbot that others can use to learn from your expertise.
+            Upload any content - files, text, links and screenshots - and turn them into an AI chatbot that others can use to learn from. Monetize your knowledge and make money 24.7.
           </p>
           <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg">
             Get Started Now
@@ -68,9 +74,9 @@ export default function Home() {
       {/* Value Proposition Section */}
       <section className="container mx-auto px-4 py-20 bg-zinc-950/50">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">Ready to Earn From Your Knowledge?</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">Ready to Earn From Your Content?</h2>
           <p className="text-gray-400 text-center mb-16 max-w-2xl mx-auto">
-            Tired of creating valuable content without getting paid? chatWise is for you.
+            Tired of making content and spending all your time and energy without getting paid much?
           </p>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -149,21 +155,21 @@ export default function Home() {
             </div>
             <h3 className="text-xl font-bold mb-3">Upload Your Content</h3>
             <p className="text-gray-400">
-              Simply upload your documents, PDFs, or text files containing your valuable knowledge.
+              Simply upload any files, text, links of posts, articles or screenshots of your content, and you are good to go.
             </p>
           </div>
 
           <div className="bg-zinc-900 p-8 rounded-xl border border-zinc-800">
             <div className="bg-primary/20 p-4 rounded-full w-fit mb-6">
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitled%20%2810%29-L6Z5P9JdVowph3nHKuzEy61e4WuKVV.png"
+                src={logo.src}
                 alt="chatWise Icon"
                 className="h-6 w-6 rounded-full"
               />
             </div>
             <h3 className="text-xl font-bold mb-3">Instant Chatbot Creation</h3>
             <p className="text-gray-400">
-              Our AI instantly transforms your content into an interactive chatbot that answers questions.
+              Our AI instantly transforms your content into an interactive chatbot that answers questions using the latest LLMs.
             </p>
           </div>
 
@@ -173,9 +179,10 @@ export default function Home() {
             </div>
             <h3 className="text-xl font-bold mb-3">Monetize Your Knowledge</h3>
             <p className="text-gray-400">
-              Set your price and start earning as users access your chatbot to learn from your expertise.
+              Set your price and start earning as users access your chatbot to learn from your expertise while you sleep.
             </p>
           </div>
+          
         </div>
       </section>
 
