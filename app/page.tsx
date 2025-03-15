@@ -60,7 +60,7 @@ export default function Home() {
           </Button>
         </div>
 
-        <div className="mt-16">
+        <div className="mt-16 px-4 sm:px-8 md:px-16">
           <ImageCarousel images={carouselImages} />
         </div>
       </section>

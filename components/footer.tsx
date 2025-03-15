@@ -85,7 +85,7 @@ export function Footer() {
         {/* Bottom Bar - HARDCODED YEAR to prevent hydration mismatch */}
         <div className="border-t border-zinc-800 py-8 px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm">© 2024 chatWise. All rights reserved.</p>
+            <p className="text-gray-400 text-sm">© 2025 chatWise. All rights reserved.</p>
             <div className="flex items-center gap-6 mt-4 md:mt-0">
               <Link href="#" className="text-sm text-gray-400 hover:text-primary transition-colors">
                 Privacy
