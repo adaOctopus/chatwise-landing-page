@@ -44,10 +44,10 @@ export default function Home() {
           </div>
           <h1 className="text-xl font-bold">chatWise</h1>
         </div>
-        <Button className="bg-primary hover:bg-primary/90 text-white">
+        {/* <Button className="bg-primary hover:bg-primary/90 text-white">
           Launch App
           <ArrowRight className="ml-2 h-4 w-4" />
-        </Button>
+        </Button> */}
       </header>
 
       {/* Hero Section */}
@@ -61,8 +61,8 @@ export default function Home() {
             Upload any content - files, text, links and screenshots - and turn them into an AI chatbot that others can use to learn from. Monetize your knowledge and make money 24.7.
           </p>
           <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg">
-            Get Started Now
-            <ArrowRight className="ml-2 h-5 w-5" />
+            <a href="#newsletter-form">JOIN WAITLIST</a>
+            {/* <ArrowRight className="ml-2 h-5 w-5" /> */}
           </Button>
         </div>
 
@@ -194,8 +194,7 @@ export default function Home() {
           </div>
           <h2 className="text-2xl md:text-3xl font-bold mb-4">Be First to Know When We Launch</h2>
           <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-            Join our early access list and be the first to monetize your knowledge when we launch. Early subscribers get
-            premium features free for 3 months.
+            Join our early access list and be the first to monetize your knowledge when we launch.
           </p>
 
           <NewsletterForm />
@@ -210,7 +209,7 @@ export default function Home() {
             Join the growing community of experts who are monetizing their knowledge with chatWise.
           </p>
           <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg">
-            Get Started
+            <a href="#newsletter-form">JOIN WAITLIST</a>
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
         </div>

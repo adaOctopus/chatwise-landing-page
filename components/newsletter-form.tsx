@@ -53,7 +53,7 @@ export function NewsletterForm() {
   }
 
   return (
-    <div className="w-full max-w-md mx-auto">
+    <div className="w-full max-w-md mx-auto" >
       {status === "success" ? (
         <div className="bg-primary/10 p-6 rounded-xl border border-primary/20 text-center">
           <CheckCircle2 className="h-12 w-12 text-primary mx-auto mb-4" />
@@ -62,7 +62,7 @@ export function NewsletterForm() {
         </div>
       ) : (
         <form onSubmit={handleSubmit} className="space-y-4">
-          <div className="relative">
+          <div className="relative" id="newsletter-form">
             <Input
               type="email"
               placeholder="Enter your email address"
@@ -75,7 +75,7 @@ export function NewsletterForm() {
               className="absolute right-1 top-1 bg-primary hover:bg-primary/90 text-white h-10"
               disabled={status === "loading"}
             >
-              {status === "loading" ? <Loader2 className="h-4 w-4 animate-spin" /> : "Notify Me"}
+              {status === "loading" ? <Loader2 className="h-4 w-4 animate-spin" /> : "JOIN"}
             </Button>
           </div>
           {status === "error" && (
