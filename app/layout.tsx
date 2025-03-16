@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://chatwise.com",
+    url: "https://chatwise.pro",
     title: "chatWise | Turn Your Knowledge Into a Cash-Making Chatbot",
     description:
       "Upload your content and instantly create an AI chatbot that others can use to learn from your expertise. Start monetizing your knowledge today.",
@@ -63,7 +63,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
-        <link rel="canonical" href="https://chatwise.com" />
+        <link rel="canonical" href="https://chatwise.pro" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

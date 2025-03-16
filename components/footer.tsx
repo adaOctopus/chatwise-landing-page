@@ -30,7 +30,7 @@ export function Footer() {
 
           {/* Quick Links */}
           <div className="md:text-center space-y-4">
-            <h3 className="text-sm font-semibold text-gray-300 uppercase tracking-wider">Quick Links</h3>
+            {/* <h3 className="text-sm font-semibold text-gray-300 uppercase tracking-wider">Quick Links</h3>
             <div className="space-y-3">
               <Link href="#features" className="block text-gray-400 hover:text-primary transition-colors">
                 Features
@@ -44,7 +44,7 @@ export function Footer() {
               <Link href="#" className="block text-gray-400 hover:text-primary transition-colors">
                 Terms of Service
               </Link>
-            </div>
+            </div> */}
           </div>
 
           {/* Contact Column */}
