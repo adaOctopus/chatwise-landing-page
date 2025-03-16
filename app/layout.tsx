@@ -71,10 +71,10 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               name: "chatWise",
-              url: "https://chatwise.com",
+              url: "https://chatwise.pro",
               potentialAction: {
                 "@type": "SearchAction",
-                target: "https://chatwise.com/search?q={search_term_string}",
+                target: "https://chatwise.pro/search?q={search_term_string}",
                 "query-input": "required name=search_term_string",
               },
               description:

@@ -51,33 +51,33 @@ export function Footer() {
           <div className="md:text-right space-y-4">
             <h3 className="text-sm font-semibold text-gray-300 uppercase tracking-wider">Connect With Us</h3>
             <a
-              href="mailto:contact@chatwise.com"
+              href="mailto:chatwisepro@gmail.com"
               className="inline-flex items-center text-gray-400 hover:text-primary transition-colors"
             >
               <Mail className="h-4 w-4 mr-2" />
-              contact@chatwise.com
+              chatwisepro@gmail.com
             </a>
             <div className="flex gap-4 md:justify-end pt-2">
               <Link
-                href="https://twitter.com"
+                href="https://x.com/CryptoSympozium" target="_blank"
                 className="bg-zinc-900 p-2 rounded-lg text-gray-400 hover:text-primary hover:bg-zinc-800 transition-colors"
               >
                 <Twitter className="h-5 w-5" />
                 <span className="sr-only">Twitter</span>
               </Link>
-              <Link
+              {/* <Link
                 href="https://github.com"
                 className="bg-zinc-900 p-2 rounded-lg text-gray-400 hover:text-primary hover:bg-zinc-800 transition-colors"
               >
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
-              </Link>
+              </Link> */}
               <Link
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/company/chatwise-ai" target="_blank"
                 className="bg-zinc-900 p-2 rounded-lg text-gray-400 hover:text-primary hover:bg-zinc-800 transition-colors"
               >
                 <Linkedin className="h-5 w-5" />
-                <span className="sr-only">LinkedIn</span>
+                <span  className="sr-only">LinkedIn</span>
               </Link>
             </div>
           </div>
@@ -88,7 +88,7 @@ export function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">© 2025 chatWise. All rights reserved.</p>
             <div className="flex items-center gap-6 mt-4 md:mt-0">
-              <Link href="#" className="text-sm text-gray-400 hover:text-primary transition-colors">
+              {/* <Link href="#" className="text-sm text-gray-400 hover:text-primary transition-colors">
                 Privacy
               </Link>
               <Link href="#" className="text-sm text-gray-400 hover:text-primary transition-colors">
@@ -96,7 +96,7 @@ export function Footer() {
               </Link>
               <Link href="#" className="text-sm text-gray-400 hover:text-primary transition-colors">
                 Contact
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
