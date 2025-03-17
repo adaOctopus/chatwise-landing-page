@@ -187,7 +187,7 @@ export default function Home() {
       </section>
 
       {/* Early Access Section */}
-      <section className="container mx-auto px-4 py-20 bg-zinc-950/50" id="early-access">
+      <section className="container mx-auto px-4 py-20 bg-zinc-950/50 mb-40" id="early-access">
         <div className="max-w-3xl mx-auto text-center">
           <div className="bg-primary/10 p-3 rounded-full w-fit mx-auto mb-6">
             <BellRing className="h-6 w-6 text-primary" />
@@ -202,7 +202,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="container mx-auto px-4 py-20" id="cta">
+      {/* <section className="container mx-auto px-4 py-20" id="cta">
         <div className="bg-gradient-to-r from-primary/20 to-zinc-900 rounded-2xl p-8 md:p-16 text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-6">Ready to Turn Your Knowledge Into Income?</h2>
           <p className="text-lg text-gray-400 mb-8 max-w-2xl mx-auto">
@@ -213,7 +213,7 @@ export default function Home() {
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
         </div>
-      </section>
+      </section> */}
 
       {/* Footer */}
       <Footer />
