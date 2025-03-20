@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { DM_Sans } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
+import thumbn from "@/public/img/thumbn.png"
 
 const dmSans = DM_Sans({ subsets: ["latin"] })
 
@@ -35,15 +36,15 @@ export const metadata: Metadata = {
     siteName: "chatWise",
     images: [
       {
-        url: "/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "chatWise - Monetize Your Knowledge",
+        url: thumbn.src,
+        width: 512,
+        height: 512,
+        alt: "chatWise Logo",
       },
     ],
   },
   twitter: {
-    card: "summary_large_image",
+    card: "summary",
     title: "chatWise | Turn Your Knowledge Into a Cash-Making Chatbot",
     description:
       "Upload your content and instantly create an AI chatbot that others can use to learn from your expertise. Start monetizing your knowledge today.",
@@ -52,6 +53,23 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+  },
+  icons: {
+    icon: [
+      {
+        url: "/favicon.ico",
+        sizes: "any",
+      },
+      {
+        url: thumbn.src,
+        type: "image/png",
+        sizes: "512x512",
+      },
+    ],
+    apple: {
+      url: thumbn.src,
+      sizes: "180x180",
+    },
   },
 }
 
