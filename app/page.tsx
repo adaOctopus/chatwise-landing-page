@@ -2,12 +2,20 @@ import { ArrowRight, Upload, DollarSign, BellRing, LogOut } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { TrendingUp, Sparkles, Coins } from "lucide-react"
 import { ImageCarousel } from "@/components/image-carousel"
+import { EaseOfUseSection } from "@/components/ease-of-use"
+import { ChatMarketSection } from "@/components/chat-market"
+import { SocialProofSection } from "@/components/social-proof"
 import { NewsletterForm } from "@/components/newsletter-form"
 import { Footer } from "@/components/footer"
 import chatwise1 from "@/public/img/chatwise1.png"
 import chatwise2 from '@/public/img/chatwise2.png'
 import chatwise3 from '@/public/img/chatwise3.png'
 import chatwise4 from '@/public/img/chatwise4.png'
+import chatwise5 from '@/public/img/chatwise5.png'
+import chatwise6 from '@/public/img/chatwise6.png'
+import chatwise7 from '@/public/img/chatwise7.png'
+import chatwise8 from '@/public/img/chatwise8.png'
+import chatwise9 from '@/public/img/chatwise9.png'
 import logo from "@/public/img/logo.png"
 
 export default function Home() {
@@ -25,9 +33,26 @@ export default function Home() {
       alt: "chatWise Chat Market Interface",
     },
     {
-      src: chatwise4.src,
-      alt: "chatWise Premium Membership",
+      src: chatwise9.src,
+      alt: "chatWise Chatbot Settings",
     },
+    {
+      src: chatwise5.src,
+      alt: "chatWise Chatbot Creation",
+    },
+    {
+      src: chatwise6.src,
+      alt: "chatWise Chatbot Monetization",
+    },
+    {
+      src: chatwise7.src,
+      alt: "chatWise Chatbot Dashboard",
+    },
+    {
+      src: chatwise8.src,
+      alt: "chatWise Chatbot Analytics",
+    },
+   
   ]
 
   return (
@@ -58,7 +83,7 @@ export default function Home() {
             Chatbot
           </h1>
           <p className="text-lg md:text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
-            Upload any content - files, text, links and screenshots - and turn them into an AI chatbot that others can use to learn from. Monetize your knowledge and make money 24.7.
+            Turn your files, text, links and screenshots into an AI chatbot that others can learn from. With a click. The fastest way to make money from your content.
           </p>
           <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg">
             <a href="#newsletter-form">JOIN WAITLIST</a>
@@ -70,6 +95,9 @@ export default function Home() {
           <ImageCarousel images={carouselImages} />
         </div>
       </section>
+
+       {/* Ease of Use Section */}
+       <EaseOfUseSection />
 
       {/* Value Proposition Section */}
       <section className="container mx-auto px-4 py-20 bg-zinc-950/50">
@@ -144,6 +172,9 @@ export default function Home() {
         </div>
       </section>
 
+           {/* ChatMarket Section */}
+           <ChatMarketSection />
+
       {/* Features Section */}
       <section className="container mx-auto px-4 py-20 bg-zinc-950" id="features">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-16">How It Works</h2>
@@ -185,6 +216,9 @@ export default function Home() {
           
         </div>
       </section>
+
+        {/* Social Proof Section */}
+        {/* <SocialProofSection /> */}
 
       {/* Early Access Section */}
       <section className="container mx-auto px-4 py-20 bg-zinc-950/50 mb-40" id="early-access">
