@@ -4,16 +4,17 @@ import { TrendingUp, Sparkles, Coins } from "lucide-react"
 import { ImageCarousel } from "@/components/image-carousel"
 import { EaseOfUseSection } from "@/components/ease-of-use"
 import { ChatMarketSection } from "@/components/chat-market"
+import { PricingSection } from "@/components/pricing-section"
 import { SocialProofSection } from "@/components/social-proof"
 import { NewsletterForm } from "@/components/newsletter-form"
 import { Footer } from "@/components/footer"
 import chatwise1 from "@/public/img/chatwise1.png"
 import chatwise2 from '@/public/img/chatwise2.png'
-import chatwise3 from '@/public/img/chatwise3.png'
+import chatwise3 from '@/public/img/chatwise99.png'
 import chatwise4 from '@/public/img/chatwise4.png'
 import chatwise5 from '@/public/img/chatwise5.png'
 import chatwise6 from '@/public/img/chatwise6.png'
-import chatwise7 from '@/public/img/chatwise7.png'
+import chatwise7 from '@/public/img/chatwise77.png'
 import chatwise8 from '@/public/img/chatwise8.png'
 import chatwise9 from '@/public/img/chatwise9.png'
 import logo from "@/public/img/logo.png"
@@ -219,6 +220,7 @@ export default function Home() {
 
         {/* Social Proof Section */}
         {/* <SocialProofSection /> */}
+        <PricingSection/>
 
       {/* Early Access Section */}
       <section className="container mx-auto px-4 py-20 bg-zinc-950/50 mb-40" id="early-access">
