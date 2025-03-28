@@ -62,14 +62,15 @@ export function PricingSection() {
               </div>
 
               <div className="mt-auto">
+              <Link href="https://www.chatwise.live" target="_blank">
               <Button className="w-full bg-primary hover:bg-primary/90 text-white">
-                <Link href="https://www.chatwise.live" target="_blank">
+                
                 
                  JOIN FOR FREE
 
-                  </Link>
                 </Button>
                 
+                </Link>
               </div>
             </div>
           </div>
