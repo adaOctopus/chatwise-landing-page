@@ -35,9 +35,6 @@ export function Footer() {
               <Link href="#features" className="block text-gray-400 hover:text-primary transition-colors">
                 Features
               </Link>
-              <Link href="#early-access" className="block text-gray-400 hover:text-primary transition-colors">
-                Early Access
-              </Link>
               <Link href="#" className="block text-gray-400 hover:text-primary transition-colors">
                 Privacy Policy
               </Link>
