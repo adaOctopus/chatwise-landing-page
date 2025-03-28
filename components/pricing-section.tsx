@@ -1,5 +1,6 @@
 import { Check, CreditCard, Coins, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link  from "next/link"
 
 export function PricingSection() {
   return (
@@ -61,10 +62,14 @@ export function PricingSection() {
               </div>
 
               <div className="mt-auto">
-                <Button className="w-full bg-primary hover:bg-primary/90 text-white">
-                  JOIN FOR FREE
-                  <ArrowRight className="ml-2 h-4 w-4" />
+              <Button className="w-full bg-primary hover:bg-primary/90 text-white">
+                <Link href="https://www.chatwise.live" target="_blank">
+                
+                 JOIN FOR FREE
+
+                  </Link>
                 </Button>
+                
               </div>
             </div>
           </div>

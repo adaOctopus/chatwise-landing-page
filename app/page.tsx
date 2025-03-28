@@ -1,6 +1,7 @@
 import { ArrowRight, Upload, DollarSign, BellRing, LogOut } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { TrendingUp, Sparkles, Coins } from "lucide-react"
+import Link from "next/link"
 import { ImageCarousel } from "@/components/image-carousel"
 import { EaseOfUseSection } from "@/components/ease-of-use"
 import { ChatMarketSection } from "@/components/chat-market"
@@ -86,10 +87,17 @@ export default function Home() {
           <p className="text-lg md:text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
             Turn your files, text, links and screenshots into an AI chatbot that others can learn from. With a click. The fastest way to make money from your content.
           </p>
+
           <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg">
-            <a href="#newsletter-form">JOIN WAITLIST</a>
+
+          <Link href="https://www.chatwise.live" target="_blank">
+          
+            GET STARTED
             {/* <ArrowRight className="ml-2 h-5 w-5" /> */}
+        
+          </Link>
           </Button>
+          
         </div>
 
         <div className="mt-16 px-4 sm:px-8 md:px-16">
@@ -223,7 +231,7 @@ export default function Home() {
         <PricingSection/>
 
       {/* Early Access Section */}
-      <section className="container mx-auto px-4 py-20 bg-zinc-950/50 mb-40" id="early-access">
+      {/* <section className="container mx-auto px-4 py-20 bg-zinc-950/50 mb-40" id="early-access">
         <div className="max-w-3xl mx-auto text-center">
           <div className="bg-primary/10 p-3 rounded-full w-fit mx-auto mb-6">
             <BellRing className="h-6 w-6 text-primary" />
@@ -235,7 +243,7 @@ export default function Home() {
 
           <NewsletterForm />
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       {/* <section className="container mx-auto px-4 py-20" id="cta">
