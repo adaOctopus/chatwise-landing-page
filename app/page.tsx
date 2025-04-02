@@ -92,7 +92,7 @@ export default function Home() {
 
           <Link href="https://www.chatwise.live" target="_blank">
           
-            GET STARTED
+            START FOR FREE
             {/* <ArrowRight className="ml-2 h-5 w-5" /> */}
         
           </Link>
