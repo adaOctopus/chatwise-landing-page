@@ -1,4 +1,4 @@
-import { Check, CreditCard, Coins, ArrowRight } from "lucide-react"
+import { Check, CreditCard, Coins, ArrowRight, Smile  } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link  from "next/link"
 
@@ -14,50 +14,50 @@ export function PricingSection() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
-          {/* Creator Card */}
-          <div className="relative group">
+
+        <div className="relative group">
             {/* Background glow effect */}
             <div className="absolute -inset-0.5 bg-gradient-to-r from-primary/20 to-primary/0 rounded-2xl blur-xl opacity-75 group-hover:opacity-100 transition-opacity"></div>
 
             <div className="relative bg-zinc-900 rounded-xl border border-zinc-800 p-8 md:p-10 h-full flex flex-col">
               <div className="flex items-center gap-4 mb-6">
                 <div className="bg-primary/10 p-3 rounded-full">
-                  <CreditCard className="h-6 w-6 text-primary" />
+                  <Smile className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold">Premium Membership</h3>
-                  <p className="text-sm text-gray-400">One-time payment</p>
+                  <h3 className="text-xl font-bold">Free Plan</h3>
+                  <p className="text-sm text-gray-400">Create your chatbot for free</p>
                 </div>
               </div>
 
               <div className="mb-6">
                 <div className="flex items-end gap-1 mb-1">
-                  <span className="text-4xl font-bold">$39</span>
-                  <span className="text-xl font-bold">.99</span>
+                  <span className="text-4xl font-bold">0</span>
+                  <span className="text-xl font-bold">$</span>
                 </div>
-                <p className="text-sm text-gray-400">No recurring fees or hidden costs</p>
+                <p className="text-sm text-gray-400">Get started for free</p>
               </div>
 
               <div className="space-y-4 mb-8">
                 <div className="flex items-start gap-3">
                   <Check className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                  <p className="text-gray-300">Unlimited content uploads to feed your chatbot</p>
+                  <p className="text-gray-300">Upload your first piece of content</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <Check className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                  <p className="text-gray-300">Latest AI LLMs for your chatbot</p>
+                  <p className="text-gray-300">Instantly create a chatbot</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <Check className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                  <p className="text-gray-300">Performance & Revenue Dashboard</p>
+                  <p className="text-gray-300">Unique link for users to access your chabot</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <Check className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                  <p className="text-gray-300">Monthly Payments to your Bank</p>
+                  <p className="text-gray-300">Set your own price and start making money</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <Check className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                  <p className="text-gray-300">Lifetime platform access</p>
+                  <p className="text-gray-300">Your chatbot uses o3-mini and your content</p>
                 </div>
               </div>
 
@@ -75,12 +75,8 @@ export function PricingSection() {
             </div>
           </div>
 
-          
 
-          
-          
-
-          {/* Revenue Share Card */}
+          {/* Creator Card */}
           <div className="relative group">
             {/* Background glow effect */}
             <div className="absolute -inset-0.5 bg-gradient-to-r from-primary/20 to-primary/0 rounded-2xl blur-xl opacity-75 group-hover:opacity-100 transition-opacity"></div>
@@ -88,43 +84,44 @@ export function PricingSection() {
             <div className="relative bg-zinc-900 rounded-xl border border-zinc-800 p-8 md:p-10 h-full flex flex-col">
               <div className="flex items-center gap-4 mb-6">
                 <div className="bg-primary/10 p-3 rounded-full">
-                  <Coins className="h-6 w-6 text-primary" />
+                  <CreditCard className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold">Your Revenue</h3>
-                  <p className="text-sm text-gray-400">Keep what you earn</p>
+                  <h3 className="text-xl font-bold">One-Time-Payment Plan</h3>
+                  <p className="text-sm text-gray-400">Lifetime access</p>
                 </div>
               </div>
 
               <div className="mb-6">
                 <div className="flex items-end gap-1 mb-1">
-                  <span className="text-4xl font-bold">95</span>
-                  <span className="text-xl font-bold">%</span>
+                  <span className="text-4xl font-bold">$39</span>
+                  <span className="text-xl font-bold">.99</span>
                 </div>
-                <p className="text-sm text-gray-400">Of all subscription revenue goes to you</p>
+                <p className="text-sm text-gray-400">Access chatWise forever</p>
               </div>
 
               <div className="space-y-4 mb-8">
-                <div className="flex items-start gap-3">
+              <div className="flex items-start gap-3">
                   <Check className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                  <p className="text-gray-300">You keep 95% of all subscription revenue</p>
+                  <p className="text-gray-300">Unlimited file uploads to feed your chatbot</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <Check className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                  <p className="text-gray-300">We handle all payment processing</p>
+                  <p className="text-gray-300">Latest AI LLMs for your chatbot</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <Check className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                  <p className="text-gray-300">Automatic monthly payouts</p>
+                  <p className="text-gray-300">Performance & Revenue Dashboard</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <Check className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                  <p className="text-gray-300">Set your own subscription prices</p>
+                  <p className="text-gray-300">Monthly Payments to your Bank</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <Check className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                  <p className="text-gray-300">No minimum payout threshold</p>
+                  <p className="text-gray-300">Your chatbot subscriptions managed by us</p>
                 </div>
+                
               </div>
 
               <div className="mt-auto pt-6 border-t border-zinc-800">
@@ -139,8 +136,18 @@ export function PricingSection() {
                   </div>
                 </div>
               </div>
+
+        
             </div>
           </div>
+
+          
+
+          
+          
+
+          {/* Revenue Share Card */}
+       
         </div>
 
         {/* FAQ or Additional Info */}
