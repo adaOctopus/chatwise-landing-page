@@ -75,6 +75,12 @@ export default function Home() {
           Launch App
           <ArrowRight className="ml-2 h-4 w-4" />
         </Button> */}
+        {/* <a href="https://www.producthunt.com/posts/chatwise-3?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-chatwise&#0045;3" target="_blank">
+        <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=948439&theme=light&t=1744091627893" alt="chatWise - Turn&#0032;content&#0032;into&#0032;cash&#0032;fast&#0046; | Product Hunt" 
+         width="250" height="54" /></a> */}
+        <a href="https://www.producthunt.com/posts/chatwise-3?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-chatwise&#0045;3" target="_blank">
+        <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=948439&theme=neutral&t=1744091785584" alt="chatWise - Turn&#0032;content&#0032;into&#0032;cash&#0032;fast&#0046; | Product Hunt"
+         style={{width: "180px", height: "40px"}} width="180" height="40" /></a>
       </header>
 
       {/* Hero Section */}
