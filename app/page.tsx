@@ -83,7 +83,7 @@ export default function Home() {
          style={{width: "180px", height: "40px"}} width="180" height="40" /></a> */}
          <a href="https://www.producthunt.com/posts/chatwise-3?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-chatwise&#0045;3" target="_blank">
          <img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=948439&theme=neutral&period=daily&t=1744205272807" alt="chatWise - Turn&#0032;content&#0032;into&#0032;cash&#0032;fast | Product Hunt" 
-         style={{width: "180px", height: "40px"}} width="180" height="40" />
+         style={{width: "180px", height: "40px"}} width="180" height="44" />
          </a>
       </header>
 
