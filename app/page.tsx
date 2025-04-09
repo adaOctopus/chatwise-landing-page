@@ -78,9 +78,13 @@ export default function Home() {
         {/* <a href="https://www.producthunt.com/posts/chatwise-3?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-chatwise&#0045;3" target="_blank">
         <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=948439&theme=light&t=1744091627893" alt="chatWise - Turn&#0032;content&#0032;into&#0032;cash&#0032;fast&#0046; | Product Hunt" 
          width="250" height="54" /></a> */}
-        <a href="https://www.producthunt.com/posts/chatwise-3?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-chatwise&#0045;3" target="_blank">
+        {/* <a href="https://www.producthunt.com/posts/chatwise-3?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-chatwise&#0045;3" target="_blank">
         <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=948439&theme=neutral&t=1744091785584" alt="chatWise - Turn&#0032;content&#0032;into&#0032;cash&#0032;fast&#0046; | Product Hunt"
-         style={{width: "180px", height: "40px"}} width="180" height="40" /></a>
+         style={{width: "180px", height: "40px"}} width="180" height="40" /></a> */}
+         <a href="https://www.producthunt.com/posts/chatwise-3?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-chatwise&#0045;3" target="_blank">
+         <img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=948439&theme=neutral&period=daily&t=1744205272807" alt="chatWise - Turn&#0032;content&#0032;into&#0032;cash&#0032;fast | Product Hunt" 
+         style={{width: "180px", height: "40px"}} width="180" height="40" />
+         </a>
       </header>
 
       {/* Hero Section */}
